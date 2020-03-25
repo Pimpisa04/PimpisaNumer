@@ -99,7 +99,7 @@ const App: React.FC = () => {
   );
 };
 
-const drawerWidth = 320;
+const drawerWidth = 280;
 
 const useStyles = makeStyles(theme => ({
   root: {

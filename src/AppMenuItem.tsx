@@ -89,7 +89,7 @@ const useStyles = makeStyles(theme =>
     },
     // แก้สีไอคอน
     menuItemIcon: {
-      color: '#fff',
+      color: '#ffbbbb',
     },
   }),
 )

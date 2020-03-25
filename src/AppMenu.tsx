@@ -2,7 +2,12 @@ import React from "react";
 import { makeStyles, createStyles } from "@material-ui/core/styles";
 
 import List from "@material-ui/core/List";
-import StreetviewRoundedIcon from '@material-ui/icons/StreetviewRounded';
+import Filter1RoundedIcon from '@material-ui/icons/Filter1Rounded';
+import Filter2RoundedIcon from '@material-ui/icons/Filter2Rounded';
+import Filter3RoundedIcon from '@material-ui/icons/Filter3Rounded';
+import Filter4RoundedIcon from '@material-ui/icons/Filter4Rounded';
+import Filter5RoundedIcon from '@material-ui/icons/Filter5Rounded';
+import Filter7RoundedIcon from '@material-ui/icons/Filter7Rounded';
 
 import AppMenuItem from "./AppMenuItem";
 // import Item from "antd/lib/list/Item";
@@ -12,7 +17,7 @@ import "./css/AppMenu.css";
 const appMenuItems = [
   {
     name: "ROOT OF EQUATION",
-    Icon: StreetviewRoundedIcon,
+    Icon: Filter1RoundedIcon,
     items: [
       {
         name: "BISECTION",
@@ -38,7 +43,7 @@ const appMenuItems = [
   },
   {
     name: "LINEAR ALGEBRA",
-    Icon: StreetviewRoundedIcon,
+    Icon: Filter2RoundedIcon,
     items: [
       {
         name: "CRAMER'S RULE",
@@ -80,7 +85,7 @@ const appMenuItems = [
   },
   {
     name: "INTERPOLATION",
-    Icon: StreetviewRoundedIcon,
+    Icon: Filter3RoundedIcon,
     items: [
       {
         name: "NEWTON",
@@ -102,7 +107,7 @@ const appMenuItems = [
   },
   {
     name: "REGRESSION",
-    Icon: StreetviewRoundedIcon,
+    Icon: Filter4RoundedIcon,
     items: [
       {
         name: "LINEAR",
@@ -120,7 +125,7 @@ const appMenuItems = [
   },
   {
     name: "INTEGRATION",
-    Icon: StreetviewRoundedIcon,
+    Icon: Filter5RoundedIcon,
     items: [
       {
         name: "COMPOSITETRAPZOIDAL",
@@ -134,7 +139,7 @@ const appMenuItems = [
   },
   // {
   //   name: "Differentiation",
-  //   Icon: StreetviewRoundedIcon,
+  //   Icon: Filter6RoundedIcon,
   //   items: [
   //     {
   //       name: "Forwardh",
@@ -168,7 +173,7 @@ const appMenuItems = [
   // },
   {
     name: "ODE",
-    Icon: StreetviewRoundedIcon,
+    Icon: Filter7RoundedIcon,
     items: [
       {
         name: "EULER'S METHOD",
