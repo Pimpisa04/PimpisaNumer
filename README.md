@@ -1,6 +1,10 @@
 # Numerical
 
-### Docker
+## Docker
+
+#### !!! System Requirements !!!
+
+#### Docker setting Ram > 3Gb.
 
 ```
 docker build -t numerical .
