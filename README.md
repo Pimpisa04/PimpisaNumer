@@ -6,9 +6,12 @@
 
 #### Docker setting Ram > 3Gb.
 
+#### Note: Build & Run might take a while to install node_modules and compile typescript
+
+
 ```
 docker build -t numerical .
 ```  
 ```
-docker run -itd -v ${pwd}:/app -v /app/node_modules -p 3000:3000 numerical
+docker run -dit -v ${pwd}:/app -p 3000:3000 numerical
 ```
