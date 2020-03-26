@@ -1,6 +1,9 @@
 # base image
 FROM node:latest
 
+# copy files in current dir to /app
+COPY . /app
+
 # set working directory
 WORKDIR /app
 
